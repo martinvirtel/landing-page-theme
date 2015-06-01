@@ -21,6 +21,10 @@ h6 {
     font-weight: 700;
 }
 
+.navbarlogo {
+	height: 100%;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -31,7 +35,12 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.intro-header .container {
+    background: url(../img/banner-intro.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -112,8 +121,8 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(../img/banner-bg.png) no-repeat center center;
+    background-size: 600px 134px;
 }
 
 .banner h2 {

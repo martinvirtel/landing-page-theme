@@ -20,10 +20,10 @@
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>
-                <p class="copyright text-muted small">Copyright &copy; {{ site.title }} All Rights Reserved</p>
+                <p class="copyright text-muted small">Copyright &copy; {{ site.copyright }} All Rights Reserved</p>
             </div>
             <div class="col-md-4">
-                Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.
+                CREDITS {% for credit in site.data.credits %}{% if credit.item %}{{ credit.item }} {% endif %}<a href="{{ credit.url }}">{{credit.text}}</a>{% if credit.license %} {{ credit.license }} {% endif %}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
             </div>
         </div>
     </div>

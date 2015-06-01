@@ -1,0 +1,19 @@
+- item: "Theme:"
+  text: Landing Page by Shane Weng
+  url: https://github.com/swcool/landing-page-theme
+
+- item: 'Icons (from <a href="http://thenounproject.com">the Noun Project</a>):'
+  text: Responsive Design by Derek Palladino
+  url: https://thenounproject.com/search?q=responsive&i=19462
+
+- text: swipe by Baska Batbold
+  url: https://thenounproject.com/search?q=swipe&i=145048
+
+- item: "Hosting:"
+  text: Github Pages
+  url: http://github.io 
+
+- item: "Images:"
+  text: Karl Frankowski 
+  url: https://www.flickr.com/photos/karlfrankowski/2398175793/
+  license: '(<a href="https://creativecommons.org/licenses/by/2.0/">cc-by 2.0</a>)'
