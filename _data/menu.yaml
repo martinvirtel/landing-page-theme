@@ -1,0 +1,16 @@
+#
+# Menu for Header and Footer
+#
+
+
+- text: "App"
+  url: "#about"
+
+- text: "Screenshots"
+  url: "#screenshots"
+
+- text: "Fragen & Antworten"
+  url: "#faq"
+
+- text: "Kontakt"
+  url: "#contact"

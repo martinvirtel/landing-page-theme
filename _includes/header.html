@@ -14,15 +14,24 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">  
+	    	{% if site.data.menu %}
+		{% for item in site.data.menu %}
+		   <li><a class="page-scroll" href="{{ item.url }}">{{ item.text }}</a></li>
+		{% endfor %}
+		{% else %}
             	<li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="#about">App</a>
                 </li>            
                 <li>
-                    <a class="page-scroll" href="#services">Services</a>
+                    <a class="page-scroll" href="#services">Screenshots</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#faq">Fragen &amp; Antworten</a>
                 </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Kontakt</a>
+                </li>
+		{% endif %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
