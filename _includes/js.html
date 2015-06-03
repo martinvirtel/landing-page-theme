@@ -1,17 +1,17 @@
 <!-- jQuery Version 1.11.0 -->
-<script src="js/jquery-1.11.0.js"></script>
+<script src="{{ page.rel }}js/jquery-1.11.0.js"></script>
 
 <!-- Plugin JavaScript -->
-    <script src="{{ "js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ page.rel }}js/jquery.easing.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+<script src="{{ page.rel }}js/bootstrap.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="js/landing-page.js"></script>
+<script src="{{ page.rel }}js/landing-page.js"></script>
 
 <!-- Inline Markdown -->
-<script src="js/marked.min.js"></script> 
+<script src="{{ page.rel }}js/marked.min.js"></script> 
 
 <script type="text/javascript">
 $('script[type="text/markdown"]').each(function()  { $t=$(this); c=$t.html(); $t.replaceWith("<div>"+marked(c)+"<!-- "+c+"--></div>"); })

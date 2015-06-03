@@ -30,3 +30,15 @@ permalink: pretty
 #    url: https://github.com/IronSummitMedia/startbootstrap
 #  - title: linkedin
 #    url: 
+#
+#
+
+rel: "./"
+
+defaults :
+ -
+  scope:
+    path: "support/g7news"
+  values:
+    rel: "../../"
+
